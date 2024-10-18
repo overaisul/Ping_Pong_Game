@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#game-arena {
+  width: 1200px;
+  height: 600px;
+  background-color: #333;
+  position: relative;
+  border: 5px solid #666;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#score-board1 {
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0;
+}
+#score-board2 {
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0;
+}
+
+.start-button {
+  background-color: orangered;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 4px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bat {
+  width: 20px;
+  height: 20px;
+  background-color: chartreuse;
+  position: absolute;
+}
+
+.divElement {
+  display: flex;
+  flex-direction: row;
+  gap: 25rem;
+}
