@@ -5,17 +5,17 @@ Welcome to my 2-player ping pong game! 🎮 This game simulates a classic table 
 🕹️ Gameplay Instructions
 
 Player 1 (Left-side Bat) controls the bat using the following keys:
-Move Up: W
-Move Down: S
-Move Left: A
-Move Right: D
+Move Up: W,
+Move Down: S,
+Move Left: A,
+Move Right: D,
 
 Player 2 (Right-side Bat) controls the bat using the arrow keys:
 
-Move Up: ↑
-Move Down: ↓
-Move Left: ←
-Move Right: →
+Move Up: ↑,
+Move Down: ↓,
+Move Left: ←,
+Move Right: →,
 
 The goal is to score 10 points by successfully returning the ball past your opponent's bat!
 
